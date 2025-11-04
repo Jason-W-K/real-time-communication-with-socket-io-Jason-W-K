@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.io Test</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  </head>
+  <body>
+    <h1>Socket.io Test Client</h1>
+    <button onclick="sendMessage()">Send Test Message</button>
+
+    <script>
+      const socket = io("http://localhost:5000", {
+        transports: ["polling"]
+      });
+
+      socket.on("connect", () => {
+        console.log("Connected:", socket.id);
+      });
+
+      socket.on("disconnect", () => {
+        console.log("Disconnected");
+      });
+
+      function sendMessage() {
+        console.log("Button clicked");
+        socket.emit("messageFromClient", "Hello from HTML client!");
+      }
+    </script>
+  </body>
+</html>
