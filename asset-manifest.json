@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/real-time-communication-with-socket-io-Jason-W-K/static/css/main.e6c13ad2.css",
+    "main.js": "/real-time-communication-with-socket-io-Jason-W-K/static/js/main.95160c40.js",
+    "static/js/453.eb570f4f.chunk.js": "/real-time-communication-with-socket-io-Jason-W-K/static/js/453.eb570f4f.chunk.js",
+    "index.html": "/real-time-communication-with-socket-io-Jason-W-K/index.html",
+    "main.e6c13ad2.css.map": "/real-time-communication-with-socket-io-Jason-W-K/static/css/main.e6c13ad2.css.map",
+    "main.95160c40.js.map": "/real-time-communication-with-socket-io-Jason-W-K/static/js/main.95160c40.js.map",
+    "453.eb570f4f.chunk.js.map": "/real-time-communication-with-socket-io-Jason-W-K/static/js/453.eb570f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.95160c40.js"
+  ]
+}
